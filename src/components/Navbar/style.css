@@ -1,0 +1,16 @@
+#nav {
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    line-height: 50px;
+}
+
+.links {
+    display: inline-block;
+    color: yellow;
+    margin-right: 12px;
+}
+
+a {
+    color: yellow;
+}
