@@ -10,17 +10,19 @@ import "./style.css";
 
 function Navbar(props) {
     return (
-        <div>
-            <Container fluid id="nav" className="text-center">
-                <Link to="/"><p className="links">Home</p></Link>
-                <Link to="/about"><p className="links">About</p></Link>
-                <Link to="/portfolio"><p className="links">Portfolio</p></Link>
-                <span className="float-right">
-                    <a href="#">linkedin</a>
-                    <a href="#">github</a>
-                </span>
-            </Container>
-        </div>
+
+        <Container fluid={true} id="nav" className="text-center">
+            <Link to="/"><p className="links">Home</p></Link>
+            <Link to="/about"><p className="links">About</p></Link>
+            <Link to="/portfolio"><p className="links">Portfolio</p></Link>
+            {/* <span className="float-right">
+                <a href="https://www.linkedin.com/in/colemiller21/"><i
+                    class="fab fa-linkedin-in fa-2x"></i></a>
+                <a href="https://github.com/ColeMiller21"><i
+                    class="fab fa-github fa-2x"></i></a>
+            </span> */}
+        </Container>
+
     )
 }
 

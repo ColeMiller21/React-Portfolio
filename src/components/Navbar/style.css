@@ -1,5 +1,4 @@
 #nav {
-    width: 100vw;
     height: 50px;
     background-color: black;
     line-height: 50px;
@@ -12,5 +11,6 @@
 }
 
 a {
-    color: yellow;
+    color: white;
+    margin-right: 10px;
 }

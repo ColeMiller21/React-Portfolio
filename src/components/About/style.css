@@ -1,0 +1,20 @@
+.centerDiv {
+    margin: 0;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: calc(100vh - 50px);
+    border: 3px solid red;
+    overflow: hidden;
+}
+.about-text {
+    width: 60%;
+}
+
+.skills-header {
+    margin-bottom: 30px;
+    font-size: 4em;
+}
+.skills-text {
+    width: 30%;
+}

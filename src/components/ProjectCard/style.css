@@ -1,0 +1,14 @@
+.card {
+    border: 5px solid #484848; 
+    margin: 10px;
+    height: 350px;
+    width: 300px;
+    overflow: hidden; 
+    transition: transform .3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ 
+ .card:hover {
+     transform: scale(1.15)
+ }
+

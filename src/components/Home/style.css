@@ -1,4 +1,93 @@
-.home {
-    background-color: red;
-    height: 95vh;
+.main {
+    height: calc(100vh - 50px);
+    border: 3px solid red;
+    background-color: black;
+    color: white;
 }
+.divide {
+    width: 80%;
+    border-color: black;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+#homepage {
+    height: 100vh;
+    min-width: 100vw;
+    color: white;
+    margin: 0 auto;
+    /* background:
+        linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.5)),
+        url(./images/dallas-skyline.jpg); */
+        background-color: black;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#home-title {
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+}
+
+#name {
+    font-size: 10vh;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#tag-line {
+    font-size: 4vh;
+    font-family: 'Permanent Marker', cursive;
+}
+a {
+    font-family: 'Questrial', sans-serif;
+    margin-left: 5px;
+}
+
+
+.button {
+    border: 3px solid white;
+    border-radius: 0px;
+    width: 150px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    margin: 10px;
+}
+.button:hover {
+    text-decoration: line-through;
+    background: transparent !important;
+    border: 3px solid white;
+}
+#button-link{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+#button-link:hover {
+    text-decoration: line-through;
+    background: transparent !important;
+}
+#contact {
+    margin-top: 15px;
+    display: none;
+}
+#contact-title {
+    font-size: 4vh;
+    font-family: 'Permanent Marker', cursive;
+}
+#small-hr{
+    display: block;
+        position: relative;
+        padding: 0;
+        margin: 8px auto;
+        height: 0;
+        width: 60%;
+        max-height: 0;
+        line-height: 0;
+        clear: both;
+        border: none;
+        border-top: 2px solid white;
+    }

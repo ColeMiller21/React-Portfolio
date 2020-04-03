@@ -1,12 +1,23 @@
 import React from "react";
+import { Container } from "reactstrap";
+import ProjectCard from "../ProjectCard/ProjectCard";
+import Wrapper from "../Wrapper/Wrapper";
 
 
 function Portfolio(props) {
 
     return (
-        <div>
+
+        <Container className="project-area text-center">
             Portfolio
-        </div>
+            <Wrapper>
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+            </Wrapper>
+        </Container>
+
+
     )
 }
 
