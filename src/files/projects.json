@@ -1,8 +1,10 @@
 [
     {
         "title": "Sentinel",
-        "cardImage": "http://placehold.jp/350x300.png",
-        "modalImage": "http://placehold.jp/800x450.png"
+        "cardImage": "https://github.com/ColeMiller21/React-Portfolio/blob/master/src/images/Sentinal-Card.png?raw=true",
+        "modalImage": "https://github.com/ColeMiller21/React-Portfolio/blob/master/src/images/Sentinal-Modal.png?raw=true",
+        "modalText": "An application designed for you be a part or create a group where all members can track their current locations. Using the Expo CLI, I was in charge utilizing the Google Maps API as well as Expo Locations and Permissions to create the map, map markers, waypoints, regions, and grabbing the users current locations.",
+        "skills": "React Native, JavaScript, CSS3, Expo, JWT, Figma, Node.js, MySQL, Sequelize, Express.js"
     },
     {
         "title": "Project 2",
