@@ -7,27 +7,31 @@
         "skills": "React Native, JavaScript, CSS3, Expo, JWT, Figma, Node.js, MySQL, Sequelize, Express.js"
     },
     {
-        "title": "Project 2",
-        "cardImage": "http://placehold.jp/350x300.png"
+        "title": "React Google Library",
+        "cardImage": "https://github.com/ColeMiller21/React-Portfolio/blob/master/src/images/Google-Card.png?raw=true",
+        "modalImage": "https://github.com/ColeMiller21/React-Portfolio/blob/master/src/images/Google-Modal.png?raw=true",
+        "modalText": "This is a full stack application utilizing Google Books API. Input a book of choice in the search bar and click search, this will retrieve 10 books from the Google Books API. Once find a book you like you can click the save button which will save the book to a Mongo Database. You can click the save link in the navigation bar in order to view all the saved books!",
+        "skills": "React.js, Node.js, Express.js, MongoDB, Reactstrap, Bootstrap"
     },
     {
-        "title": "Project 3",
-        "cardImage": "http://placehold.jp/350x300.png"
+        "title": "NFL Click Game",
+        "cardImage": "https://github.com/ColeMiller21/React-Portfolio/blob/master/src/images/React-Click-Card.png?raw=true",
+        "modalImage": "https://github.com/ColeMiller21/React-Portfolio/blob/master/src/images/React-Click-Modal.png?raw=true",
+        "modalText": "A React app created by using create-react-app. You play game by clicking on an image of 1 of the 12 football teams increasing your score after each click. If you click the same picture the game will restart. Continue to play to try and beat the high score!",
+        "skills": "React.js, Bootstrap, Reactstrap"
     },
     {
-        "title": "Project 4",
-        "cardImage": "http://placehold.jp/350x300.png"
+        "title": "Quiz Me",
+        "cardImage": "https://github.com/ColeMiller21/React-Portfolio/blob/master/src/images/QuizMe-Card.png?raw=true",
+        "modalImage": "https://github.com/ColeMiller21/React-Portfolio/blob/master/src/images/QuizMe-Modal.png?raw=true",
+        "modalText": "A quiz game using JService API creating one daily quiz that you can take with your signed in account and displaying a leaderboard of everyone who has taken the same quiz that day.I contributed by assisting in the design of the Front End, the logic for the quiz game and the backend logic of the game by using the JService API to create the questions and answers.",
+        "skills": "HTML5, CSS3, JavaScript, jQuery, Bootstrap 4, Node.js and MySQL"
     },
     {
-        "title": "Project 5",
-        "cardImage": "http://placehold.jp/350x300.png"
-    },
-    {
-        "title": "Project 6",
-        "cardImage": "http://placehold.jp/350x300.png"
-    },
-    {
-        "title": "Project 7",
-        "cardImage": "http://placehold.jp/350x300.png"
+        "title": "Clean Fridge",
+        "cardImage": "https://github.com/ColeMiller21/React-Portfolio/blob/master/src/images/Clean-Fridge-Card.png?raw=true",
+        "modalImage": "https://github.com/ColeMiller21/React-Portfolio/blob/master/src/images/Clean-Fridge-Modal.png?raw=true",
+        "modalText": "This application is designed to utilize the ingredients in your fridge to come up with different recipes using those ingredients as well as a minimal amount of extra ingredients.",
+        "skills": "HTML5, CSS3, JavaScript, JQuery, Firebase, CanvasJS, Spoonacular API, Useless-Facts API"
     }
 ]

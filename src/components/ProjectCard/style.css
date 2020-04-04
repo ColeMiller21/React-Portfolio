@@ -6,13 +6,17 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
 
+ .card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+ }
  .card-footer {
      background: #f2f2f2;
  }
-
- #image:hover{
-     opacity: 0.9;
+ #image {
+     height: 200px;
  }
+
  
 
 

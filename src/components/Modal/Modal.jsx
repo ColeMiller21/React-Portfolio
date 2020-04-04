@@ -22,7 +22,7 @@ function ProjectModal(props) {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <Image src={props.activeProject.modalImage} alt="Project" fluid />
+                <Image className="modal-image" src={props.activeProject.modalImage} alt="Project" fluid />
                 <p id="text">{props.activeProject.modalText}</p>
                 <p id="skills-text"><span id="skills">Skills used: </span>{props.activeProject.skills}</p>
             </Modal.Body>
