@@ -4,6 +4,7 @@ import Fade from 'react-reveal/Fade';
 import "./style.css";
 import skillLogo from "../../images/blue-skills.svg";
 import aboutLogo from "../../images/blue-person.svg";
+import aboutPicture from "../../images/About-Picture.png"
 
 
 
@@ -44,7 +45,7 @@ function About(props) {
                 <Col sm={4}>
                     <div className="text-center centerDiv">
                         <div>
-                            <img className="img-thumbnail" id="about-img" src="http://placehold.jp/300x400.png" alt="profile" />
+                            <img className="img-thumbnail" id="about-img" src={aboutPicture} alt="profile" />
 
                         </div>
                     </div>
@@ -62,7 +63,7 @@ function About(props) {
                                     <tr>
                                         <td> My name is Cole Miller. I am 27 years old currently residing in the Dallas/Fort Worth area.
                                         I graduated from Southern Methodist University's Full Stack Web Development Boot Camp in March 2020.
-                                I am currently actively seeking opportunites to learn, grow and contribute in a great company.</td>
+                                I am actively seeking opportunites to learn, grow and contribute in a great company.</td>
                                     </tr>
                                 </tbody>
 

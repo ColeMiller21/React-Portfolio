@@ -2,9 +2,11 @@
     min-height: 100vh;
     background: linear-gradient(-15deg, #87ceeb 60%, #f2f2f2 60%);
     margin-bottom: -50px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .header {
     height: 50px;
+    margin-bottom: 30px;
 }
 
