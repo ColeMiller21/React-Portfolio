@@ -1,27 +1,30 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Container, Row } from "reactstrap";
-import Navbar from "./components/Navbar/Navbar";
+// import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Container } from "reactstrap";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
-import Portfolio from "./components/Portfolio/Portfolio"
+import Portfolio from "./components/Portfolio/Portfolio";
+import ScrollUpButton from "react-scroll-up-button";
+import skills from "./files/skills.json";
 import './App.css';
 
 class App extends Component {
+
+  state = {
+    skills
+  }
 
   render() {
     return (
       <div>
         <Container fluid>
-          <Router>
-            <Row>
-              <Navbar />
-              <Route exact path="/" component={Home} />
-              <Route exact path="/about" component={About} />
-              <Route exact path="/portfolio" component={Portfolio} />
-            </Row>
-          </Router>
+          <Home />
+          <About skills={skills} />
+          <Portfolio />
+          <ScrollUpButton AnimationDuration={800} />
         </Container>
+
+
       </div>
     )
   }

@@ -1,20 +1,44 @@
+#about {
+    background-color: #f2f2f2;
+    font-family: 'Roboto Slab', serif;
+}
+
+.header {
+    height: 50px;
+}
 .centerDiv {
     margin: 0;
     display: flex;
     align-items: center; 
     justify-content: center;
-    height: calc(100vh - 50px);
-    border: 3px solid red;
+    height: 95vh;
     overflow: hidden;
 }
+
 .about-text {
     width: 60%;
 }
 
+.container {
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    top: 150px;
+}
 .skills-header {
     margin-bottom: 30px;
-    font-size: 4em;
+   
 }
 .skills-text {
     width: 30%;
+}
+
+#about-img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+tr {
+    font-family: 'Roboto Slab', serif;
 }

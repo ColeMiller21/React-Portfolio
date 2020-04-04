@@ -1,68 +1,80 @@
 import React from "react";
 import { Container, Col, Row } from "reactstrap";
+import Fade from 'react-reveal/Fade';
 import "./style.css";
+import skillLogo from "../../images/blue-skills.svg";
+import aboutLogo from "../../images/blue-person.svg";
+
 
 
 function About(props) {
     return (
-        <Container fluid={true}>
+        <Container fluid={true} id="about">
+            <Row>
+                <Col className="header">
+                    <h1 className="text-center">About Me</h1>
+                </Col>
+            </Row>
             <Row>
                 <Col sm={4}>
-                    <div className="text-center centerDiv">
-                        <div className="skills-text">
+                    <div className="text-center centerDiv container">
+                        <Fade left>
+                            <table className="skills-text content">
+                                <thead>
+                                    <tr className="skills-header">
+                                        <th><img src={skillLogo} alt="Skills" /></th>
 
-                            <div className="skills-header">
-                                Skills
-                      </div>
-                            <div>
-                                <p>JavaScript, React.js, Node.js, HTML5, CSS3, jQuery,
-                                RESTful APIs, AJAX, Bootstrap 4, Express.js, MySQL, MongoDB
-                            </p>
-                            </div>
-                        </div>
+                                    </tr>
+                                </thead>
+                                {props.skills.map(skill => {
+                                    return (
+                                        <tbody>
+                                            <tr key={skill.skill}>
+                                                <td>{skill.skill}</td>
+                                            </tr>
+                                        </tbody>
+                                    )
+                                })}
+                            </table>
 
+
+                        </Fade>
                     </div>
                 </Col>
                 <Col sm={4}>
                     <div className="text-center centerDiv">
                         <div>
-                            <img className="img-thumbnail" src="http://placehold.jp/300x400.png" alt="profile" />
+                            <img className="img-thumbnail" id="about-img" src="http://placehold.jp/300x400.png" alt="profile" />
 
                         </div>
                     </div>
                 </Col>
                 <Col sm={4}>
-                    <div className="text-center centerDiv">
-                        <div className="about-text">
-                            My name is Cole Miller. I am 27 years old currently residing in the Dallas/Fort Worth area.
-                            I
-                            graduated high
-                            school in 2010 from James Martin High School, where I then joined the United States Army
-                            and served
-                            honorably for 5 years as an Infantryman. I made it to the rank of E-5 or Sergeant and was a
-                            Fire
-                            Team Leader
-                            with the oversight of 3-5 men. I got out of the Army in 2015 and moved back to Arlington,
-                            Texas.
-                            Where
-                            I
-                            worked at Costco as a Tire Center Supervisor. Now I am currently enrolled in the Full Stack
-                            Flex
-                            Course at
-                            Southern Methodist University where I am looking to make a career change into the software
-                            development
-                            field. I am looking forward to the class and my future in this new adventure and am awaiting
-                            the
-                            challenges
-                            ahead.
-                        </div>
-                    </div>
+                    <div className="text-center centerDiv container">
+                        <Fade right>
+                            <table className="about-text content">
+                                <thead>
+                                    <tr id="about-header">
+                                        <img src={aboutLogo} alt="About" />
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td> My name is Cole Miller. I am 27 years old currently residing in the Dallas/Fort Worth area.
+                                        I graduated from Southern Methodist University's Full Stack Web Development Boot Camp in March 2020.
+                                I am currently actively seeking opportunites to learn, grow and contribute in a great company.</td>
+                                    </tr>
+                                </tbody>
 
+                            </table>
+                        </Fade>
+                    </div>
                 </Col>
 
             </Row>
-        </Container>
+        </Container >
     )
+
 }
 
 export default About;

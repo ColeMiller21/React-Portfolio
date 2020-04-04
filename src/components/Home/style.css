@@ -1,30 +1,10 @@
 .main {
-    height: calc(100vh - 50px);
-    border: 3px solid red;
-    background-color: black;
-    color: white;
-}
-.divide {
-    width: 80%;
-    border-color: black;
-    margin-top: .5em;
-    margin-bottom: .5em;
-}
-#homepage {
     height: 100vh;
-    min-width: 100vw;
-    color: white;
-    margin: 0 auto;
-    /* background:
-        linear-gradient(rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.5)),
-        url(./images/dallas-skyline.jpg); */
-        background-color: black;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    /* height: calc(100vh - 50px); */
+    background: linear-gradient(195deg, #87ceeb 60%, #f2f2f2 60%);
+    color: black;
 }
+
 
 #home-title {
     position: absolute;
@@ -36,47 +16,45 @@
 
 #name {
     font-size: 10vh;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto Slab', serif;
 }
 
 #tag-line {
     font-size: 4vh;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto Slab', serif;
 }
 a {
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Roboto Slab', serif;
     margin-left: 5px;
 }
 
-
 .button {
-    border: 3px solid white;
+    border: 3px solid black;
     border-radius: 0px;
     width: 150px;
-    color: white;
-    font-family: 'Permanent Marker', cursive;
+    color: black;
+    font-family: 'Roboto Slab', serif;
     margin: 10px;
 }
 .button:hover {
-    text-decoration: line-through;
     background: transparent !important;
-    border: 3px solid white;
+    border: 3px solid black;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 #button-link{
-    color: white;
-    font-family: 'Permanent Marker', cursive;
+    color: black;
+    font-family: 'Roboto Slab', serif;
 }
-#button-link:hover {
-    text-decoration: line-through;
-    background: transparent !important;
-}
+
 #contact {
     margin-top: 15px;
     display: none;
 }
 #contact-title {
     font-size: 4vh;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Roboto Slab', serif;
 }
 #small-hr{
     display: block;
@@ -89,5 +67,18 @@ a {
         line-height: 0;
         clear: both;
         border: none;
-        border-top: 2px solid white;
+        border-top: 2px solid black;
+    }
+    #links {
+        margin-top: 15px;
+        color: black;
+    }
+
+    .site-link{
+        color: black;
+        margin-right: 5px;
+    }
+    .site-link:hover{
+        color: black;
+        transform: scale(1.15);
     }
