@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ColeMiller21/React-Portfolio.git/static/css/main.3f1649e3.chunk.css",
+    "main.js": "/ColeMiller21/React-Portfolio.git/static/js/main.a7943ab2.chunk.js",
+    "main.js.map": "/ColeMiller21/React-Portfolio.git/static/js/main.a7943ab2.chunk.js.map",
+    "runtime-main.js": "/ColeMiller21/React-Portfolio.git/static/js/runtime-main.69edca12.js",
+    "runtime-main.js.map": "/ColeMiller21/React-Portfolio.git/static/js/runtime-main.69edca12.js.map",
+    "static/js/2.47430065.chunk.js": "/ColeMiller21/React-Portfolio.git/static/js/2.47430065.chunk.js",
+    "static/js/2.47430065.chunk.js.map": "/ColeMiller21/React-Portfolio.git/static/js/2.47430065.chunk.js.map",
+    "index.html": "/ColeMiller21/React-Portfolio.git/index.html",
+    "precache-manifest.7caecf853d3559bb229cd47353cfc9a6.js": "/ColeMiller21/React-Portfolio.git/precache-manifest.7caecf853d3559bb229cd47353cfc9a6.js",
+    "service-worker.js": "/ColeMiller21/React-Portfolio.git/service-worker.js",
+    "static/css/main.3f1649e3.chunk.css.map": "/ColeMiller21/React-Portfolio.git/static/css/main.3f1649e3.chunk.css.map",
+    "static/js/2.47430065.chunk.js.LICENSE.txt": "/ColeMiller21/React-Portfolio.git/static/js/2.47430065.chunk.js.LICENSE.txt",
+    "static/media/About-Picture.png": "/ColeMiller21/React-Portfolio.git/static/media/About-Picture.0f425f32.png",
+    "static/media/Cole-Miller-Resume.pdf": "/ColeMiller21/React-Portfolio.git/static/media/Cole-Miller-Resume.19489b3e.pdf",
+    "static/media/blue-person.svg": "/ColeMiller21/React-Portfolio.git/static/media/blue-person.a72d1227.svg",
+    "static/media/blue-skills.svg": "/ColeMiller21/React-Portfolio.git/static/media/blue-skills.e27705c8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69edca12.js",
+    "static/js/2.47430065.chunk.js",
+    "static/css/main.3f1649e3.chunk.css",
+    "static/js/main.a7943ab2.chunk.js"
+  ]
+}
