@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Container } from "reactstrap";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
@@ -19,8 +18,8 @@ class App extends Component {
       <div>
         <Container fluid>
           <Home />
-          <About skills={skills} />
           <Portfolio />
+          <About skills={skills} />
           <ScrollUpButton AnimationDuration={800} />
         </Container>
 

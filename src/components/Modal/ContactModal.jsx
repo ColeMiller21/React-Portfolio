@@ -20,8 +20,8 @@ function ContactModal(props) {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <p><span className="bold-text">Phone Number:</span> (817)-733-2566</p>
-                <p><span className="bold-text">Email:</span> Cole.t.miller@gmail.com</p>
+                <p><span className="bold-text">Phone Number:</span><a href="tel:817-733-2566">(817)-733-2566</a> </p>
+                <p><span className="bold-text">Email:</span><a href="mailto:cole.t.miller@gmail.com">Cole.t.miller@gmail.com</a></p>
             </Modal.Body>
         </Modal>
     )

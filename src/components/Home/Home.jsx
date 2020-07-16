@@ -22,7 +22,7 @@ class Home extends Component {
                 <Navbar />
                 <div id="home-title" className="text-center">
                     <h1 id="name">Hi, I am Cole</h1>
-                    <h6 id="tag-line">An aspiring Web Developer</h6>
+                    <h6 id="tag-line">A Web Developer</h6>
                     <a href={Resume} target="_blank" rel="noopener noreferrer" className="btn btn-outline-dark button">Resume</a>
                     <button type="button" className="btn btn-outline-dark button" id="contact-btn" onClick={this.handleShow}>Contact</button>
                     <div id="links">
