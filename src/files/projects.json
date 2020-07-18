@@ -1,5 +1,14 @@
 [
     {
+        "title": "Green 2 Green",
+        "cardImage": "https://github.com/ColeMiller21/React-Portfolio/blob/master/src/images/Green2Green-Card.png?raw=true",
+        "modalImage": "https://github.com/ColeMiller21/React-Portfolio/blob/master/src/images/Green2Green-Modal.png?raw=true",
+        "modalText": "An application designed for golfers to be able to keep track of their scores. After 5 scores which is the handicap standard by the USGA a handicap will be given to each golfer from then on out!",
+        "skills": "React.js, JavaScript, CSS3, Node.js, JWT, Express.js, MongoDB, Mongoose",
+        "github": "https://github.com/ColeMiller21/Green2Green",
+        "deployed": "https://shielded-lowlands-75979.herokuapp.com/"
+    },
+    {
         "title": "Sentinel",
         "cardImage": "https://github.com/ColeMiller21/React-Portfolio/blob/master/src/images/Sentinal-Card.png?raw=true",
         "modalImage": "https://github.com/ColeMiller21/React-Portfolio/blob/master/src/images/Sentinal-Modal.png?raw=true",
