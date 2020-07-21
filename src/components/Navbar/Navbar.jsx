@@ -22,21 +22,21 @@ function Navbar(props) {
             <Link
                 className="nav-links"
                 activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={800}
-            >About</Link>
-            <Link
-                className="nav-links"
-                activeClass="active"
                 to="portfolio"
                 spy={true}
                 smooth={true}
                 offset={0}
                 duration={800}
             >Portfolio</Link>
+            <Link
+                className="nav-links"
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={800}
+            >About</Link>
 
         </Container>
 
