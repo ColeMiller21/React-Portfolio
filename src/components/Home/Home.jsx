@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container } from "reactstrap";
 import Navbar from "../Navbar/Navbar";
-import Resume from "../../files/Cole-Miller-Resume.pdf"
+import Resume from "../../files/ColeMillerResume.pdf"
 import ContactModal from "../Modal/ContactModal";
 import "./style.css";
 

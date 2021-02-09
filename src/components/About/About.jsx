@@ -6,9 +6,11 @@ import skillLogo from "../../images/blue-skills.svg";
 import aboutLogo from "../../images/blue-person.svg";
 import aboutPicture from "../../images/About-Picture.png"
 
+const aSkills = ["JavaScript", "React.js", "Node.js", "HTML5", "CSS3", "Angular", "RESTful APIs",
+    "Bootstrap 4", ".Net Core", "MSSQL"
+]
 
-
-function About(props) {
+function About() {
     return (
         <Container fluid={true} id="about">
             <Row>
@@ -27,18 +29,16 @@ function About(props) {
 
                                     </tr>
                                 </thead>
-                                {props.skills.map(skill => {
+                                {aSkills.map(skill => {
                                     return (
                                         <tbody>
-                                            <tr key={skill.skill}>
-                                                <td>{skill.skill}</td>
+                                            <tr key={skill}>
+                                                <td>{skill}</td>
                                             </tr>
                                         </tbody>
                                     )
                                 })}
                             </table>
-
-
                         </Fade>
                     </div>
                 </Col>
@@ -46,7 +46,6 @@ function About(props) {
                     <div className="text-center centerDiv">
                         <div>
                             <img className="img-thumbnail" id="about-img" src={aboutPicture} alt="profile" />
-
                         </div>
                     </div>
                 </Col>
@@ -61,9 +60,9 @@ function About(props) {
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td> My name is Cole Miller. I am 27 years old currently residing in the Dallas/Fort Worth area.
+                                        <td> My name is Cole Miller. I am 28 years old currently residing in the Dallas/Fort Worth area.
                                         I graduated from Southern Methodist University's Full Stack Web Development Boot Camp in March 2020.
-                                I am actively seeking opportunites to learn, grow and contribute in a great company.</td>
+                                        I am currently working as a Applications Developer at Shockwave Consulting.</td>
                                     </tr>
                                 </tbody>
 
